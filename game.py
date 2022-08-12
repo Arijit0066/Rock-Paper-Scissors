@@ -35,6 +35,7 @@ elif rando == 3:
 print("Computer Already Choosed")
 player = input("Your Turn: ")
 final = game(comp, player)
+print("comp = ", comp)
 
 if final == None:
     print("It's a Tie!!")
