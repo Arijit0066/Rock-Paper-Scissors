@@ -23,7 +23,7 @@ def game(comp, player):
 
 
 
-print("Rock(r)  Paper(p)  Sizer(s)")
+print("Rock(r)  Paper(p)  Scissors(s)")
 rando = random.randint(1,3)
 if rando == 1:
     comp = 'r'
